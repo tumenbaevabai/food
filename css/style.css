@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Roboto:wght@400;500&display=swap");
+/* ##################### GLOBAL STYLE ##################### */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Philosopher", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* ##################### REUSABLE ##################### */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.grid {
+  display: grid;
+}
+
+.section__overhead {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #DC780B;
+  opacity: 0.7;
+}
+.section__overhead--center {
+  text-align: center;
+}
+
+.section__headline {
+  font-size: 31.25px;
+  line-height: 24px;
+  color: #150C01;
+}
+.section__headline--center {
+  text-align: center;
+}
+
+.section__desc {
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+}
+.section__desc--center {
+  text-align: center;
+}
+
+.section__btn {
+  display: inline-block;
+  border: 1px solid rgba(220, 120, 11, 0.1);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DC780B;
+  transition: 0.6s;
+  padding: 11px 30px;
+}
+.section__btn:hover {
+  background: #DC780B;
+  color: #FFFFFF;
+}
+
+/* ##################### MENU ##################### */
+.menu {
+  padding: 50px 0 187px;
+}
+.menu__headline {
+  margin: 9px 0 25px;
+}
+.menu__depiction {
+  max-width: 748px;
+  margin: 0 auto;
+}
+.menu__grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  margin: 60px 0 50px;
+}
+.menu__img img {
+  border-radius: 76px 10px 76px 0;
+}
+.menu__content {
+  padding: 21px 25px 25px;
+}
+.menu__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__title {
+  font-size: 25px;
+  line-height: 24px;
+  color: #150C01;
+}
+.menu__price {
+  font-size: 25px;
+  line-height: 24px;
+  color: #150C01;
+}
+.menu__desc {
+  margin: 20px 0;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+}
+.menu__btn {
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  background: #DC780B;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.menu__btn--section {
+  text-align: center;
+}
+.menu__rating .star {
+  color: #EDEDED;
+}
+.menu__rating .star--active {
+  color: #DC780B;
+}
+
+/* ##################### APP ##################### */
+.app {
+  padding: 114px 0 129px;
+  background: rgba(251, 241, 231, 0.4);
+}
+.app__container {
+  max-width: 952px;
+  position: relative;
+}
+.app__wrapper {
+  max-width: 555px;
+}
+.app__headline {
+  margin: 5px 0 0;
+}
+.app__desc {
+  margin: 29px 0 39px;
+}
+.app__buttons {
+  display: flex;
+  align-items: center;
+}
+.app__btn {
+  display: flex;
+  align-items: center;
+  padding: 11px 28px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 5px;
+}
+.app__btn--app-store {
+  color: #FFFFFF;
+  background: #150C01;
+  margin-right: 30px;
+}
+.app__btn--google-play {
+  color: #150C01;
+  border: 1.5px solid rgba(21, 12, 1, 0.1);
+}
+.app__img {
+  position: absolute;
+  bottom: calc(-50% - 25%);
+  right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
