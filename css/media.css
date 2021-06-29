@@ -19,6 +19,10 @@
     .app__wrapper {
         max-width: 100%;
     }
+    .app__buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .app__btn--app-store {
         margin: 0 0 10px 0;
     }
@@ -47,9 +51,4 @@
         margin: 10px 0;
         font-size: 14px;
     }
-    .app__buttons {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
 }
