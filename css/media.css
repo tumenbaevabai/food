@@ -16,6 +16,16 @@
         grid-template-columns: 1fr;
         margin: 30px 0 25px;
     }
+    .app__wrapper {
+        max-width: 100%;
+    }
+    .app__btn--app-store {
+        margin: 0 0 10px 0;
+    }
+    .app__img {
+        margin-top: 20px;
+        position: static;
+    }
 }
 @media (max-width: 576px) {
     .section__overhead {
@@ -37,18 +47,9 @@
         margin: 10px 0;
         font-size: 14px;
     }
-    .app__wrapper {
-        max-width: 100%;
-    }
     .app__buttons {
         flex-direction: column;
         align-items: flex-start;
     }
-    .app__btn--app-store {
-        margin: 0 0 10px 0;
-    }
-    .app__img {
-        margin-top: 20px;
-        position: static;
-    }
+
 }
