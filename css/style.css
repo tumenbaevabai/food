@@ -170,6 +170,7 @@ img {
   align-items: center;
 }
 .app__btn {
+  min-width: 179px;
   display: flex;
   align-items: center;
   padding: 11px 28px;
