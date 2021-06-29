@@ -32,6 +32,12 @@
     }
 }
 @media (max-width: 576px) {
+    .menu {
+        padding: 30px 0 60px;
+    }
+    .app {
+        padding: 60px 0 50px;
+    }
     .section__overhead {
         font-size: 14px;
     }
